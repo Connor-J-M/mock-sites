@@ -2,3 +2,8 @@
 Portfolio of mock websites created for fun or school projects
 
 Click here to preview stankshirts.com -------> https://htmlpreview.github.io/?https://github.com/Connor-J-M/mock-sites/blob/main/HTMLFinalProjectItemPage.html
+
+The framework I used to display the website on github is broken so here is the link(s) to the other pages:
+https://htmlpreview.github.io/?https://github.com/Connor-J-M/mock-sites/blob/main/HTMLFinalProjectCartPage.html
+https://htmlpreview.github.io/?https://github.com/Connor-J-M/mock-sites/blob/main/HTMLFinalProjectShippingPage.html
+https://htmlpreview.github.io/?https://github.com/Connor-J-M/mock-sites/blob/main/HTMLFinalProjectThankPage.html
