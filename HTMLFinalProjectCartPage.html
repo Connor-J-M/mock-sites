@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>StankShirts Cart</title>
+</head>
+<link rel="stylesheet" href="CSSFinalProject.css"/>
+<body>
+        <nav>
+            <a href="HTMLFinalProjectItemPage.html"><img src="Images/stankShirtsHeaderNEW.png" alt="Stank Shirts Logo" class = "center"/></a>
+        </nav>
+        <div id="cart1">
+            <img src="Images/shirtCart1.png" />
+            <img src="Images/shirtCart2.png" />
+            <img src="Images/shirtCart3.png" />
+        </div>
+        <div class="checkout">
+            <form action="HTMLFinalProjectShippingPage.html">
+                <fieldset>
+                    <text>Shipping: $9.78</text>
+                    <br>
+                    <text>Tax: (Calculated at checkout)</text>
+                    <br>
+                    <hr>
+                    <label for="coupon">Coupon Code:</label>
+                    <br>
+                    <input type="text" id="coupon" name="coupon">
+                    <hr>
+                    <br>
+                    <button type="submit" id="checkout" name="checkout" value="checkout">checkout</button>
+                    <hr>
+                    <button type="button" id="return" name="return" value="return" onclick="location.href='HTMLFinalProjectItemPage.html'">return to shopping</button>
+                 </fieldset>
+            </form>
+        </div>
+</body>
+</html>

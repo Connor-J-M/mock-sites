@@ -1,0 +1,133 @@
+﻿
+:root {
+  --default-margin: 10px;
+  --default-padding: 10px;
+  --default-width: 55%;
+  --default-font: dokdoFont;
+  --default-font-size: 3vw;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/* ToDo List:
+  - make max rows (uses math)
+  - add footer
+
+  Long-term:
+  -Add cart functionality
+  -Add prices
+*/
+
+img {
+  width: 100%;
+  /* auto is default */
+  height: 100%;
+}
+
+html {background-color: black;}
+
+label{
+  color: white;
+  font-family: var(--default-font);
+  font-size: var(--default-font-size);
+}
+
+form {
+  max-width: var(--default-width);
+}
+
+text{
+  font-family: var(--default-font);
+  font-size: var(--default-font-size);
+}
+
+input[type=text] {
+  width: 50%;
+  height: 3vw;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+button {
+  font-family: var(--default-font);
+  font-size: var(--default-font-size);
+  margin: var(--default-margin);
+  display: inline-block;
+}
+
+/*Classes*/
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  border: 10px;
+  border-style: dashed;
+  border-color: white;
+}
+
+.items > img {
+  
+  transition: width .75s, height .75s, opacity .5s, margin .75s;
+}
+
+.itemCool {
+padding: 5px 5px 5px 5px;
+align-items: center;
+
+}
+
+.items > img:hover {
+    opacity: 50%;
+    width: 90%;
+    height: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+  background-color: #575757;
+  color: white;
+}
+
+/* With dynamic resizing */
+.center {
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+  }
+
+.buttons { 
+    float: right; 
+    display: inline;
+    width: 5%;
+    height: 5%;
+}
+
+.checkout {
+  color: white;
+}
+
+
+/*Id's*/
+
+#cart1 {
+  max-width: var(--default-width);
+}
+
+@font-face {
+  font-family: dokdoFont;
+  src: url(Dokdo-Regular.ttf);
+}
+
+
