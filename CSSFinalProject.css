@@ -60,6 +60,7 @@ button {
 h1, h2 {
   font-family: var(--default-font);
   font-size: var(--default-font-size);
+  color: white;
 }
 
 /*Classes*/
