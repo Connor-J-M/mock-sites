@@ -57,6 +57,11 @@ button {
   display: inline-block;
 }
 
+h1, h2 {
+  font-family: var(--default-font);
+  font-size: var(--default-font-size);
+}
+
 /*Classes*/
 
 .items {
