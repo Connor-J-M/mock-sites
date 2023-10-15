@@ -97,6 +97,13 @@ button:hover {
   color: white;
 }
 
+a:hover, a:visited {
+  color: #575757;
+}
+
+a:active {
+  color: #272727;
+}
 /* With dynamic resizing */
 .center {
     display: inline-block;
