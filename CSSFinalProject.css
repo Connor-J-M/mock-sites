@@ -57,12 +57,6 @@ button {
   display: inline-block;
 }
 
-h1, h2 {
-  font-family: var(--default-font);
-  font-size: var(--default-font-size);
-  color: white;
-}
-
 /*Classes*/
 
 .items {
@@ -97,13 +91,6 @@ button:hover {
   color: white;
 }
 
-a:hover, a:visited {
-  color: #575757;
-}
-
-a:active {
-  color: #272727;
-}
 /* With dynamic resizing */
 .center {
     display: inline-block;
@@ -118,6 +105,7 @@ a:active {
     align-items: center;
     height: 400px;
     width: 100%;
+    margin-top: 10vw;
   }
 
 .buttons { 
@@ -125,11 +113,6 @@ a:active {
     display: inline;
     width: 5%;
     height: 5%;
-    border-style: dashed;
-    border-color: white;
-    border-width: 3px;
-    padding: var(--default-padding);
-    margin: var(--default-margin);
 }
 
 .checkout {

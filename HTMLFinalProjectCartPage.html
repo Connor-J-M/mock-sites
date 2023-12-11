@@ -1,21 +1,20 @@
 ﻿<!DOCTYPE html>
 
 <html>
+    <script src="finalProject.js"></script>
 <head>
     <title>StankShirts Cart</title>
+    <link rel="icon" type="image/x-icon" href="Images/StankShirtsIcon.ico">
+    <link rel="stylesheet" href="CSSFinalProject.css"/>
 </head>
-<link rel="stylesheet" href="CSSFinalProject.css"/>
 <body>
         <nav>
-            <a href="HTMLFinalProjectItemPage.html"><img src="Images/stankShirtsHeaderNEW.png" alt="Stank Shirts Logo" class = "center"/></a>
+            <a href="Index.html"><img src="Images/stankShirtsHeaderNEW.png" alt="Stank Shirts Logo" class = "center"/></a>
         </nav>
         <div id="cart1">
-            <img src="Images/shirtCart1.png" />
-            <img src="Images/shirtCart2.png" />
-            <img src="Images/shirtCart3.png" />
         </div>
         <div class="checkout">
-            <form>
+            <form action="HTMLFinalProjectShippingPage.html">
                 <fieldset>
                     <text>Shipping: $9.78</text>
                     <br>
@@ -27,9 +26,11 @@
                     <input type="text" id="coupon" name="coupon">
                     <hr>
                     <br>
-                    <a href="HTMLFinalProjectShippingPage.html"><button type="button" id="checkout" name="checkout" value="checkout">checkout</button></a>
+                    <button type="submit" id="checkout" name="checkout" value="checkout">checkout</button>
                     <hr>
-                    <a href="HTMLFinalProjectItemPage.html"><button type="button" id="return" name="return" value="return">return to shopping</button></a>
+                    <button type="button" id="return" name="return" value="return" onclick="location.href='Index.html'">return to shopping</button>
+                    <hr>
+                    <button type="button" id="clear" name="clear" value="Clear Cart">Clear Cart</button>
                  </fieldset>
             </form>
         </div>
